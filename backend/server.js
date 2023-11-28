@@ -19,4 +19,4 @@ app.get("/api/chat/:id", (req, res) => {
   res.send(singleChat);
 });
 
-app.listen(PORT || 3000, console.log(`Server started on PORT ${PORT}`));
+app.listen(PORT || 4000, console.log(`Server started on PORT ${PORT}`));
